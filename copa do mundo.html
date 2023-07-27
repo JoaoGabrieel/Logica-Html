@@ -1,0 +1,33 @@
+<meta charset="UFT-8">
+
+<script>
+
+function pulaLinha(){
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostraFrase(frase){
+    document.write(frase);
+}
+
+var limite = parseInt(prompt("entre com a data limite da copa"))
+var anoCopaFeminina = 1991;
+
+while (anoCopaFeminina <= limite) {
+mostraFrase ("teve copa em" + anoCopaFeminina);
+pulaLinha()
+    anoCopaFeminina= anoCopaFeminina + 4;
+
+}
+
+mostraFrase ("FIM");
+
+
+
+
+
+
+
+
+</script>
